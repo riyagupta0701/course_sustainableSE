@@ -1,13 +1,12 @@
 ---
 author: "Preethika Ajaykumar, Atharva Dagaonkar, Riya Gupta, Sneha Prashanth, Deon Saji"
 title: "GreenField — Cross-Boundary JSON Field Analysis"
-image: "img/gX_template/cover.png"
+image: "img/g14_greenfield/greenfield_cover.png"
 summary: "Modern full-stack applications silently accumulate unused JSON fields, data the backend sends but the frontend never reads, or fields the frontend submits but the backend never processes. This unused payload wastes CPU cycles on serialisation, consumes unnecessary network bandwidth, and drains mobile battery at every request, yet no existing tool detects it. GreenField performs static cross-boundary analysis across a full-stack workspace, tracing which fields are defined on one side and never accessed on the other, surfacing violations as inline diagnostics with estimated byte impact. We validate the tool on real open-source full-stack repositories, quantifying unused field prevalence and its measurable energy cost at realistic request volumes."
-paper: "../papers/gX_template.pdf"
-source: "https://github.com/luiscruz/course_sustainableSE"
-website: https://luiscruz.github.io/course_sustainableSE/
-video: https://luiscruz.github.io/course_sustainableSE/
-group_number: 0
+paper: "../papers/g14_greenfield.pdf"
+source: "https://github.com/riyagupta0701/GreenField"
+video: https://drive.google.com/file/d/1pF-LpSh6zNJyRGEzGtkEiV18o7wJicSQ/view?usp=sharing
+group_number: 14
 identifier: "p2_hacking_sustainability_2026" # Do not change this
 all_projects_page: "../p2_hacking_sustainability" # Do not change this
 ---
